@@ -27,6 +27,7 @@ h3 {
 
 a {
   color: #11999e;
+  text-decoration: none;
 }
 
 p {
@@ -61,7 +62,9 @@ hr {
   margin: 100px auto 100px auto;
   text-align: left;
 }
-
+.skill-row-title {
+  padding: 10px 0 10px;
+}
 /*
 .stripe-logo {
   width: 10%;
@@ -77,15 +80,19 @@ hr {
 */
 
 .work-time {
-  float: right;
+  text-align: right;
+  position: relative;
+  margin: 0;
 }
 
 .stripe-logo {
-  width: 10%;
+  height: 38px;
+  float: left;
 }
 
 .microsoft-logo {
-  width: 20%;
+  height: 38px;
+  float: left;
 }
 
 .bottom-container {
@@ -137,28 +144,18 @@ hr {
 }
 
 .btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 14px;
+  background: #11cdd4;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .btn:hover {
   background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
